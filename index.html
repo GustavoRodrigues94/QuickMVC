@@ -1,0 +1,47 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>QuickMVC - Gerador De Código PHP</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Gerador de código através do banco de dados" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<!-- //Custom Theme files -->
+
+</head>
+<body>
+	<!-- main -->
+	<div class="main">
+		<p align="center" ><img src="Imagens/Logo.jpg" width="400px" ></p>
+		<h1 align="center">QuickMVC - Gerador De Código PHP</h1>
+		<div class="main-row">
+			<div class="agileits-top"> 
+				<form action="controller/BancoCTR.php" method="post"> 
+					<p> Insira as informações do banco de dados </p>
+					<input class="text" type="text" name="servidor" placeholder="Endereço IP do servidor" required>
+					<input class="text" type="text" name="usuario" placeholder="Usuário" required>
+					<input class="text" type="password" name="senha" placeholder="Senha">
+					<input class="text" type="text" name="nomeBanco" placeholder="Nome do banco de dados" required>
+
+					<input type="submit" name="comando" id="comando" value="Gerar Código">
+				</form>
+				<p><a href="#">Como consigo essas informações? </a></p>
+			</div>	 
+		</div>	
+		<!-- copyright -->
+		<div class="copyright">
+			<p> © 2017 QuickMVC . All rights reserved </p>
+		</div>
+		<!-- //copyright -->
+	</div>	
+	<!-- //main --> 
+</body>
+</html>
